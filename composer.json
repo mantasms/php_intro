@@ -1,9 +1,0 @@
-{
-    "name": "mantas/package",
-    "description": "pirmas package",
-    "type": "project",
-    "minimum-stability": "dev",
-    "require": {
-        "spatie/image": "dev-master"
-    }
-}
