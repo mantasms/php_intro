@@ -4,6 +4,6 @@
     "type": "project",
     "minimum-stability": "dev",
     "require": {
-        "intervention/image": "2.3"
+        "spatie/image": "dev-master"
     }
 }
