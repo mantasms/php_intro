@@ -1,0 +1,23 @@
+{
+    "name": "phpmantasms/strugleris",
+    "description": "belenkas",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mantasms"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Strugleris\\": "src/strugleris"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Strugleris\\": "tests/strugleris"}
+    }
+}

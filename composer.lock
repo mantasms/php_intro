@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "28041c7e0c9bc5828e68e7d4bfe66246",
+    "packages": [
+        {
+            "name": "phpmantasms/strugleris",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mantasms/git_library.git",
+                "reference": "a2b193cd4a157c8be40e60fd67bb3c28b9297df4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mantasms/git_library/zipball/a2b193cd4a157c8be40e60fd67bb3c28b9297df4",
+                "reference": "a2b193cd4a157c8be40e60fd67bb3c28b9297df4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Strugleris\\": "src/strugleris"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Strugleris\\": "tests/strugleris"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mantasms"
+                }
+            ],
+            "description": "belenkas",
+            "support": {
+                "source": "https://github.com/mantasms/git_library/tree/v0.2",
+                "issues": "https://github.com/mantasms/git_library/issues"
+            },
+            "time": "2019-01-15T12:21:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

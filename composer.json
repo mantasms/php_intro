@@ -1,24 +1,18 @@
 {
-    "name": "project/mayhem",
+    "name": "mantas/duoda",
     "type": "project",
     "authors": [{
             "name": "mantasms",
             "email": "m.sakaitis@gmail.com"
         }],
-    "repositories": [{
-            "type": "package",
-            "package": {
-                "name": "PHPFightClub/baklazanaiinamus",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/mantasms/my_package.git",
-                    "type": "git",
-                    "reference": "master"
+    "repositories": [
+      {
+            "type": "vcs",
+                    "url": "https://github.com/mantasms/git_library.git"
                 }
-            }
-        }],
+        ],
     "minimum-stability": "dev",
     "require": {
-        "PHPFightClub/baklazanaiinamus": "master"
+        "phpmantasms/Strugleris": "0.2"
     }
 }
